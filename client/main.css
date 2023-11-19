@@ -40,12 +40,21 @@ button img {
   height: 80px;
 }
 
+.mood-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: -120px;
+}
+
 .mood {
-  width: 60px;
-  height: 60px;
+  width: 90px;
+  height: 90px;
   border-radius: 50px;
   overflow: hidden;
-  margin: 50px;
+  margin-left: 30px;
+  border-style: dotted;
 }
 
 .mood img {
@@ -95,18 +104,24 @@ p {
   font-size: 30px;
 }
 
-.agumon {
-  width: 10%;
-}
+/* .agumon {
+  width: 150px;
+} */
 
-.koromon {
-  width: 10%;
-}
+/* .koromon {
+  width: 150px;
+} */
 
-.greymon {
-  width: 25%;
-}
+/* .greymon {
+  width: 300px;
+} */
 
 .numemon {
-  width: 10%;
+  width: 150px;
+}
+
+.digimon {
+  position: absolute;
+  bottom: 8%;
+  transition: transform 0.1s ease-out;
 }

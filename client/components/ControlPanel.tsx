@@ -1,10 +1,4 @@
-import { useState } from 'react'
-
-interface ControlPanelProps {
-  onFeed: (food: 'meat' | 'broccoli') => void
-  onPet: () => void
-  onScold: () => void
-}
+import { useState, useEffect } from 'react'
 
 export default function ControlPanelProps() {
   return (

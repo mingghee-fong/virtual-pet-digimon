@@ -11,7 +11,7 @@ export default function MoodIndicicator() {
           <div className="happiness-bar"></div>
         </div>
       </div>
-      {/* <div className="mood-container">
+      <div className="mood-container">
         <div className="mood">
           <img src="./img/happy.gif" alt="happy" />
         </div>
@@ -21,7 +21,10 @@ export default function MoodIndicicator() {
         <div className="mood">
           <img src="./img/hungry.gif" alt="hungry" />
         </div>
-      </div> */}
+        <div className="mood">
+          <img src="./img/sad.gif" alt="sad" />
+        </div>
+      </div>
     </>
   )
 }

@@ -9,7 +9,7 @@ function App() {
       <Day />
       <ControlPanelProps />
       <MoodIndicicator />
-      {/* <ShowDigimon /> */}
+      <ShowDigimon />
     </>
   )
 }
